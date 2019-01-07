@@ -1,20 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+carpentry: "ttt"    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "online"        # brief name of host site without address (e.g., "Euphoric State University")
+address: ""      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: ""      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: ""       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "January 14 & 15, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9AM - 5PM Pacific"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2019-01-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-01-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Reed Cartwright","John Simpson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+etherpad: "https://docs.google.com/document/d/12X1TYcQwkFk7_EMu6AlU3vHvIFctyMmEjP6ff4V_HQg" # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -256,15 +256,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <h3>Day 2</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Building Teaching Skill: Lesson Study </td> </tr>
-      <tr> <td>10:05</td> <td>Building Teaching Skill: Live Coding </td> </tr>
-      <tr> <td>11:05</td> <td>Morning Coffee </td> </tr>
-      <tr> <td>11:20</td> <td>Building Teaching Skill: Performance Revised </td> </tr>
-      <tr> <td>12:00</td> <td>Lunch </td> </tr>
-      <tr> <td>13:00</td> <td>The Carpentries: Workshop Introductions </td> </tr>
-      <tr> <td>14:10</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>15:15</td> <td>Afternoon Coffee </td> </tr>
-      <tr> <td>15:30</td> <td>The Carpentries: Teaching Practices </td> </tr>
+      <tr> <td>09:10</td> <td>The Carpentries: How We Operate </td> </tr>
+      <tr> <td>10:05</td> <td>The Carpentries: Teaching Practices </td> </tr>
+      <tr> <td>10:35</td> <td>Morning Coffee </td> </tr>
+      <tr> <td>10:50</td> <td>Building Teaching Skill: Lesson Study </td> </tr>
+      <tr> <td>11:55</td> <td>Lunch </td> </tr>
+      <tr> <td>12:55</td> <td>Building Teaching Skill: Live Coding </td> </tr>
+      <tr> <td>13:55</td> <td>Building Teaching Skill: Performance Revised </td> </tr>
+      <tr> <td>14:35</td> <td>Afternoon Coffee </td> </tr>
+      <tr> <td>14:50</td> <td>The Carpentries: Workshop Introductions </td> </tr>
       <tr> <td>16:00</td> <td>Afternoon Wrap-Up </td> </tr>
       <tr> <td>16:45</td> <td>Finish </td> </tr>
     </table>
@@ -291,8 +291,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <hr/>
 
 <p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <strong>Collaborative Notes:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this Google Doc for taking notes and sharing URLs and bits of code.
 </p>
 {% endif %}
